@@ -1,10 +1,10 @@
-fastify-sequelize
-==============
+fastify-sequelizejs
+===================
 ### Sequelize.js adapter for Fastify
 ----
 **About Sequelize.js:**
 <p align="center" />
-	![sequelizejs.com](http://docs.sequelizejs.com/manual/asset/logo-small.png)
+	![sequelizejs image](http://docs.sequelizejs.com/manual/asset/logo-small.png)
 	
 Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects PostgreSQL, MySQL, SQLite and MSSQL and features solid transaction support, relations, read replication and more.
 *source: [website](http://sequelizejs.com)*
@@ -12,7 +12,7 @@ Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects
 ---
 **Install:**
 ```bash
-    npm install fastify-sequelize --save
+    npm install fastify-sequelizejs --save
 ```
 **Usage:**
 *server.js*
@@ -20,7 +20,7 @@ Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects
 	'use strict'
 	
     const fastify = require('fastify')()
-    const { Client } = require('fastify-sequelize')
+    const { Client } = require('fastify-sequelizejs')
 	
 	fastify.register(Client, {
 		"dialect": "postgres",

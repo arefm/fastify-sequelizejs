@@ -1,0 +1,38 @@
+{
+  "name": "fastify-sequelizejs",
+  "version": "1.1.0",
+  "description": "Sequelize adapter for Fastify",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arefm/fastify-sequelize.git"
+  },
+  "keywords": [
+    "fastify",
+    "squelize",
+    "sequelizejs",
+    "nodejs",
+    "node",
+    "database",
+    "db",
+    "orm",
+    "sql",
+    "postgres",
+    "mysql",
+    "sqlite"
+  ],
+  "author": "Aref Mirhosseini <code@arefm.me> (http://arefm.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arefm/fastify-sequelizejs/issues"
+  },
+  "homepage": "https://github.com/arefm/fastify-sequelize#jsreadme",
+  "dependencies": {
+    "fastify-plugin": "^0.1.1",
+    "pg": "^6.4.2",
+    "sequelize": "^4.23.2"
+  }
+}
