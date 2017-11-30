@@ -3,6 +3,7 @@ fastify-sequelizejs
 ### Sequelize.js adapter for Fastify
 ----
 **About Sequelize.js:**
+
 <p align="center" />
 	![sequelizejs image](http://docs.sequelizejs.com/manual/asset/logo-small.png)
 	
@@ -11,10 +12,12 @@ Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects
 
 ---
 **Install:**
+
 ```bash
     npm install fastify-sequelizejs --save
 ```
 **Usage:**
+
 *server.js*
 ```javascript
 	'use strict'
