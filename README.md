@@ -4,8 +4,7 @@ fastify-sequelizejs
 ----
 **About Sequelize.js:**
 
-<p align="center" />
-	![sequelizejs image](http://docs.sequelizejs.com/manual/asset/logo-small.png)
+![Sequelize.js](http://docs.sequelizejs.com/manual/asset/logo-small.png "Sequelize Logo")
 	
 Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects PostgreSQL, MySQL, SQLite and MSSQL and features solid transaction support, relations, read replication and more.
 *source: [website](http://sequelizejs.com)*
