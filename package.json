@@ -1,6 +1,6 @@
 {
   "name": "fastify-sequelizejs",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Sequelize adapter for Fastify",
   "main": "lib/main.js",
   "scripts": {
